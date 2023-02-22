@@ -30,10 +30,9 @@
    - Proses dijalankan minimum sekali, true = lanjut
    
 ## Break dan Continue
-Nilai boolean menentukan perulangan lanjut atau berhenti
-Dapat menghentikan perulangan dengan mengabaikan nilai boolean
-Break = Menghentikan seluruh proses perulangan
-Continue = Menghintakan satu kali proses perulangan
+Nilai boolean menentukan perulangan lanjut atau berhenti dan dapat menghentikan perulangan dengan mengabaikan nilai boolean
+- Break = Menghentikan seluruh proses perulangan
+- Continue = Menghintakan satu kali proses perulangan
 
 ## Fungsi
 Merupakan kumpulan perintah yang dapat digunakan berkali-kali
