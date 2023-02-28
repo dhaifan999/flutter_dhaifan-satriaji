@@ -18,7 +18,7 @@ Data yang dapat ditunggu dengan membawa data return dari fungsi async
 
 ## Collection
 Kumpulan data pada suatu tempat
-- List
-  Menyimpan suatu data index (elemen) secara berbaris
-- Map
-  Menyimpan data secara key-value yang berguna selayaknya index pada list
+1. List
+   - Menyimpan suatu data index (elemen) secara berbaris
+2. Map
+   - Menyimpan data secara key-value yang berguna selayaknya index pada list
