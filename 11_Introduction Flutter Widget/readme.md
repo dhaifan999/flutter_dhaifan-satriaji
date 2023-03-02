@@ -16,14 +16,14 @@
    - Digunakan untuk membentuk antarmuka (UI)
    - Berupa class
    - Dapat terdiri dari beberapa widget lainnya
-     1. Stateless Widget
-        - Tidak bergantung pada perubahan data
-        - Hanya fokus pada tampilan
-        - Dibuat dengan extends pada class Stateless Widget
-     2. Stateful Widget
-        - Mementingkan pada perubahan data
-        - Dibuat dengan extends pada class Stateful Widget
-        - 1 widget menggunakan 2 class (widget dan state)
+   1. Stateless Widget
+      - Tidak bergantung pada perubahan data
+      - Hanya fokus pada tampilan
+      - Dibuat dengan extends pada class Stateless Widget
+   2. Stateful Widget
+      - Mementingkan pada perubahan data
+      - Dibuat dengan extends pada class Stateful Widget
+      - 1 widget menggunakan 2 class (widget dan state)
 
 ## Built in Widget
    - Widget yang dapat langsung digunakan
