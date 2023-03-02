@@ -2,7 +2,7 @@
 
 ## Perkenalan Flutter
    1. Pengertian Flutter
-      Alat pengembangan antarmuka pengguna yang digunakan untuk membuat aplikasi mobile, desktop, dan web
+      - Alat pengembangan antarmuka pengguna yang digunakan untuk membuat aplikasi mobile, desktop, dan web
    2. Keungguluan Flutter
       - Mudah digunakan dan dipelajari
       - Produktivitas tinggi
