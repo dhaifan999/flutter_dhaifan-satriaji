@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widget/input_widget.dart';
+import 'package:ui_testing/widget/input_widget.dart';
 
 class ContactWidget extends StatefulWidget {
   final TextEditingController nameController;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/styles/color_style.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:ui_testing/styles/color_style.dart';
 
 class TextCustome {
   TextStyle m3Medium = GoogleFonts.roboto(

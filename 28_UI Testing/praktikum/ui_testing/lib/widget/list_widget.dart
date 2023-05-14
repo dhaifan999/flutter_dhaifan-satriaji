@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/model/contact_model.dart';
-import 'package:flutter_application_1/styles/color_style.dart';
-import 'package:flutter_application_1/styles/text_style.dart';
+import 'package:ui_testing/model/contact_model.dart';
+import 'package:ui_testing/styles/color_style.dart';
+import 'package:ui_testing/styles/text_style.dart';
 
 class ListContactWidget extends StatefulWidget {
   final TextEditingController nameController;

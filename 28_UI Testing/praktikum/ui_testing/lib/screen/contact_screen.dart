@@ -1,38 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/model/contact_model.dart';
-import 'package:flutter_application_1/styles/text_style.dart';
-import 'package:flutter_application_1/widget/contact_widget.dart';
-import 'package:flutter_application_1/widget/header_widget.dart';
-import 'package:flutter_application_1/widget/list_widget.dart';
+import 'package:ui_testing/model/contact_model.dart';
+import 'package:ui_testing/styles/text_style.dart';
+import 'package:ui_testing/widget/contact_widget.dart';
+import 'package:ui_testing/widget/header_widget.dart';
+import 'package:ui_testing/widget/list_widget.dart';
 
-void main() {
-  runApp(
-    const MyApp(),
-  );
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-      ),
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ContactScreen extends StatefulWidget {
+  const ContactScreen({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ContactScreen> createState() => _ContactScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ContactScreenState extends State<ContactScreen> {
   final _nameController = TextEditingController();
   final _phoneController = TextEditingController();
 
@@ -49,11 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Contacts',
-          style: TextCustome().m3Medium,
-        ),
-        centerTitle: true,
+        title: const Text('Contacts'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -75,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 setState(() {});
               },
             ),
+            const SizedBox(height: 20),
             Text(
               'List Contacts',
               style: TextCustome().m3Medium,
